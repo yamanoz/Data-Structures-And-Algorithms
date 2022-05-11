@@ -1,0 +1,15 @@
+            Merge Sort: Elemanları her seferinde ortadan bölünerek tek eleman kalana kadar ayrılması daha sonra karşılaştırma yapılarak birleştirilmesidir.
+                         [16,21,11,8,12,22]
+                         
+                 [16,21,11]                  [8,12,22]
+                 
+               [16] – [21,11]              [8,12] – [22]
+               
+  	            [16] – [21] – [11]          [8] – [12] – [22]
+              
+	                [16] – [11,21]              [8,12] – [22]
+              
+	                  [11,16,21]                  [8,12,22]
+                
+	                         [8,11,12,16,21,22]
+        Algoritma her bölündüğünde  logn kadar maliyeeti olur n defa tekrar edeceğine göre BigO notasyonuna göre O(nlogn)
